@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs>
+ <radialGradient id="base"><stop stop-color="#f9d9ef"/><stop offset=".55" stop-color="#ecddec"/><stop offset="1" stop-color="#b5a8bd"/></radialGradient>
+ <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#36394b"/><stop offset=".12" stop-color="#e5e9f4"/><stop offset=".23" stop-color="#8b95a9"/><stop offset=".37" stop-color="#fff7ff"/><stop offset=".53" stop-color="#74738b"/><stop offset=".7" stop-color="#f6f8ff"/><stop offset=".82" stop-color="#aa9bac"/><stop offset="1" stop-color="#55566b"/></linearGradient>
+ <linearGradient id="rainbow" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#85bcb9"/><stop offset=".22" stop-color="#ddedcd"/><stop offset=".35" stop-color="#eab8d4"/><stop offset=".49" stop-color="#b6bbe3"/><stop offset=".63" stop-color="#d8efef"/><stop offset=".78" stop-color="#f9ecd2"/><stop offset="1" stop-color="#c6a8cf"/></linearGradient>
+ <radialGradient id="spark"><stop stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <mask id="disc"><circle cx="300" cy="300" r="284" fill="white"/><circle cx="300" cy="300" r="39" fill="black"/></mask>
+ <path id="star" d="M0-25 7-8 25-8 11 4 16 23 0 12-16 23-11 4-25-8-7-8Z"/>
+</defs>
+<g mask="url(#disc)">
+ <circle cx="300" cy="300" r="284" fill="url(#chrome)"/>
+ <circle cx="300" cy="300" r="274" fill="url(#base)" stroke="#fdf5ff" stroke-width="2"/>
+ <circle cx="300" cy="300" r="267" fill="url(#rainbow)" opacity=".38"/>
+ <path d="M300 300 93 114A278 278 0 0 1 180 42Z" fill="#fff" opacity=".33"/>
+ <path d="m300 300 193 206a280 280 0 0 1-77 48Z" fill="#d2f9ec" opacity=".35"/>
+ <path d="m300 300 180-210a280 280 0 0 1 55 64Z" fill="#eebddc" opacity=".35"/>
+ <g fill="none" stroke="#977e9a" stroke-width="3" opacity=".8" transform="translate(328 130) rotate(-13)">
+  <ellipse rx="78" ry="56"/><ellipse rx="35" ry="56"/><ellipse rx="60" ry="56"/><ellipse rx="78" ry="19"/><path d="M-78 0H78M0-56V56"/>
+  <ellipse rx="99" ry="16" transform="rotate(-24)" stroke="#b898b7"/>
+ </g>
+ <g fill="#c175ad" opacity=".85"><use href="#star" transform="translate(153 179) rotate(12) scale(1.4)"/><use href="#star" transform="translate(445 224) rotate(-20) scale(.8)"/><use href="#star" transform="translate(353 473) rotate(15) scale(1.1)"/><use href="#star" transform="translate(138 397) rotate(-18) scale(.75)"/></g>
+ <g fill="#947dab" opacity=".8"><use href="#star" transform="translate(101 285) rotate(-20) scale(.8)"/><use href="#star" transform="translate(437 399) rotate(10) scale(1.5)"/><use href="#star" transform="translate(265 501) rotate(-12) scale(.55)"/><use href="#star" transform="translate(195 91) scale(.45)"/></g>
+ <g stroke="#ae8ca5" fill="none" opacity=".5"><circle cx="300" cy="300" r="232" stroke-dasharray="1 8" stroke-width="2"/><circle cx="300" cy="300" r="221" stroke-dasharray="2 12"/><path d="M83 339Q197 244 167 464M446 111Q437 278 519 303M228 411Q203 540 396 488"/></g>
+ <circle cx="170" cy="235" r="70" fill="url(#spark)"/><circle cx="433" cy="445" r="80" fill="url(#spark)"/>
+ <circle cx="300" cy="300" r="75" fill="url(#chrome)" stroke="#eeeaf5" stroke-width="2"/>
+ <circle cx="300" cy="300" r="63" fill="#d4c6d5" fill-opacity=".75" stroke="#817e94"/>
+ <circle cx="300" cy="300" r="43" fill="none" stroke="url(#chrome)" stroke-width="8"/>
+</g></svg>

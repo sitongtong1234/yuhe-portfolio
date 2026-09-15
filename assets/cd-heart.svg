@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs>
+ <linearGradient id="chrome" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#1f2536"/><stop offset=".1" stop-color="#e7eef6"/><stop offset=".2" stop-color="#777f95"/><stop offset=".3" stop-color="#fafaff"/><stop offset=".36" stop-color="#bfc3d6"/><stop offset=".43" stop-color="#292e45"/><stop offset=".52" stop-color="#aab0cb"/><stop offset=".58" stop-color="#f9f7ff"/><stop offset=".67" stop-color="#5b617c"/><stop offset=".76" stop-color="#e0dbea"/><stop offset=".9" stop-color="#fff"/><stop offset="1" stop-color="#73798d"/></linearGradient>
+ <linearGradient id="rainbow" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#c7b1d3"/><stop offset=".16" stop-color="#8189bf"/><stop offset=".3" stop-color="#c9d9e0"/><stop offset=".45" stop-color="#ceb0c7"/><stop offset=".55" stop-color="#69647c"/><stop offset=".72" stop-color="#babcca"/><stop offset="1" stop-color="#c9c6d3"/></linearGradient>
+ <radialGradient id="disc"><stop stop-color="#9998ae"/><stop offset=".6" stop-color="#4b4d60"/><stop offset="1" stop-color="#232630"/></radialGradient>
+ <mask id="cut"><circle cx="300" cy="300" r="284" fill="white"/><circle cx="300" cy="300" r="39" fill="black"/></mask>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="1" dy="9" stdDeviation="5" flood-color="#15121f" flood-opacity=".65"/></filter>
+ <path id="heart" d="M300 220C281 190 232 153 204 128C163 91 166 48 195 32C229 12 266 29 300 62C334 29 371 12 405 32C434 48 437 91 396 128C368 153 319 190 300 220Z"/>
+</defs>
+<g mask="url(#cut)">
+ <circle cx="300" cy="300" r="284" fill="url(#chrome)"/>
+ <circle cx="300" cy="300" r="274" fill="url(#disc)" stroke="#eee8f8" stroke-width="2"/>
+ <circle cx="300" cy="300" r="267" fill="url(#rainbow)" opacity=".55"/>
+ <path d="m300 300-183-213a280 280 0 0 1 90-54Z" fill="#bce6ef" opacity=".4"/>
+ <path d="m300 300 242 138a280 280 0 0 1-64 70Z" fill="#eac2d9" opacity=".4"/>
+ <path d="M45 419Q192 373 300 300T552 202" fill="none" stroke="#beb4eb" stroke-width="14" opacity=".6"/>
+ <path d="M51 430Q192 388 300 307T559 214" fill="none" stroke="#e0d9ef" stroke-width="4" opacity=".6"/>
+ <g transform="translate(0 64)" filter="url(#shadow)">
+  <use href="#heart" fill="none" stroke="#262939" stroke-width="34"/>
+  <use href="#heart" fill="none" stroke="url(#chrome)" stroke-width="29"/>
+  <use href="#heart" fill="none" stroke="#f5f6ff" stroke-width="2" transform="translate(0 -7)" opacity=".88"/>
+ </g>
+ <path d="M120 481Q278 451 461 467" fill="none" stroke="#a6a4bd" opacity=".6"/>
+ <circle cx="300" cy="300" r="75" fill="url(#chrome)" stroke="#e9eaf3" stroke-width="2"/>
+ <circle cx="300" cy="300" r="63" fill="#b9b7c7" fill-opacity=".8" stroke="#686b81"/>
+ <circle cx="300" cy="300" r="43" fill="none" stroke="url(#chrome)" stroke-width="8"/>
+ <path d="m102 360 4 18 18 4-18 4-4 18-4-18-18-4 18-4Z" fill="#fff" opacity=".9"/>
+</g></svg>

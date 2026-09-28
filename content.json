@@ -2753,6 +2753,71 @@
         }
       ],
       "order": 35
+    },
+    {
+      "id": "deep-video-2026-09-24",
+      "categories": [
+        "media",
+        "film"
+      ],
+      "title": {
+        "zh": "深度视频",
+        "en": "In-depth video"
+      },
+      "summary": {
+        "zh": "深度视频作品。",
+        "en": "An in-depth video."
+      },
+      "role": {
+        "zh": "",
+        "en": ""
+      },
+      "nature": {
+        "zh": "",
+        "en": ""
+      },
+      "date": "",
+      "notes": [],
+      "materials": [
+        {
+          "type": "video",
+          "src": "assets/deep-video-2026-09-24.mp4",
+          "poster": "assets/deep-video-2026-09-24-poster.jpg"
+        }
+      ],
+      "order": 36
+    },
+    {
+      "id": "promotion-laozihao",
+      "categories": [
+        "film"
+      ],
+      "title": {
+        "zh": "宣传",
+        "en": "Promotional video"
+      },
+      "summary": {
+        "zh": "《转生成为老字号就在现代社会拿出真本事！》宣传视频。",
+        "en": "A promotional video about a time-honored brand in modern society."
+      },
+      "role": {
+        "zh": "",
+        "en": ""
+      },
+      "nature": {
+        "zh": "",
+        "en": ""
+      },
+      "date": "",
+      "notes": [],
+      "materials": [
+        {
+          "type": "video",
+          "src": "assets/promotion-laozihao.mp4",
+          "poster": "assets/promotion-laozihao-poster.jpg"
+        }
+      ],
+      "order": 37
     }
   ],
   "resume": [
